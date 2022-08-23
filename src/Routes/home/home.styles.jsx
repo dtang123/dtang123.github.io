@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 export const ContentContainer = styled.div `
   align-items: center;
-  padding: 50px 70px 50px 70px;
+  padding: 50px 65px 50px 65px;
   & .subContainer {
     margin: 50px 0 50px 0;
     padding: 40px 40px;
@@ -11,13 +11,20 @@ export const ContentContainer = styled.div `
     border-radius: 8px;
     border: solid;
     align-items: center;
-
-    & .carousel-container {
-      margin: 0 10px 12px 0;
-      padding: 0 0 12px 12px;
-      background-color: #E5E7E9;
-      border-radius: 10px;
+    & .row-container {
+      justify-content: space-around;
+      margin-top: 30px;
+      & .carousel-container {
+        margin: 0 0 12px 0;
+        padding: 12px 12px 12px 12px;
+        background-color: #E5E7E9;
+        border-radius: 10px;
+        & .more-button {
+          margin-top: 15px;
+        }
+      }
     }
+    
   }
 `
 

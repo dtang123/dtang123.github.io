@@ -10,6 +10,10 @@ import { ReactComponent as RunImg } from '../../assets/person-running-solid.svg'
 import { ReactComponent as SportImg } from '../../assets/football-solid.svg'
 import { ReactComponent as PythonImg } from '../../assets/python-brands.svg'
 import { ReactComponent as ReactImg } from '../../assets/react-brands.svg' 
+import { ReactComponent as BraingImg } from '../../assets/brain-solid.svg'
+import { ReactComponent as GradientImg1 } from '../../assets/parabolic-ellipse.svg'
+import { ReactComponent as GradientImg2 } from '../../assets/bermuda-circle.svg'
+import { ReactComponent as GradientImg3 } from '../../assets/vanishing-stripes.svg'
 import Button from 'react-bootstrap/Button';
 
 
@@ -19,7 +23,7 @@ const Home = () => {
       <Container fluid="md" className="subContainer">
         <Row>
           <Col md={{ span: 3, offset: 2 }} >
-            <Picture src={ProfilePic} alt="Picture of David" class="col"/>
+            <Picture src={ProfilePic} alt="Picture of David"/>
           </Col>
           <Col md={{ offset: 1 }}>
             <h1>Hello, my name is David</h1>
@@ -29,8 +33,8 @@ const Home = () => {
       </Container>
         <Container fluid="md" className="subContainer">
         <h1>Preview</h1>
-          <Row>
-            <Col md={{ span: 4}} className="carousel-container">
+          <Row className="row-container">
+            <Col md={{ span: 3}} className="carousel-container">
               <h3>About Me</h3>
               <Carousel>
                 <Carousel.Item>
@@ -55,9 +59,9 @@ const Home = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
-              <Button className="more-button" variant="outline-info">See More</Button>
+              <Button className="more-button" variant="outline-info" href="/about">See More</Button>
             </Col>
-            <Col md={{ span: 4}} className="carousel-container">
+            <Col md={{ span: 3 }} className="carousel-container">
               <h3>Skills</h3>
               <Carousel>
                 <Carousel.Item>
@@ -75,28 +79,41 @@ const Home = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                <Carousel.Caption>
+                  <BraingImg />
+                  <Carousel.Caption>
                       <h5>TensorFlow</h5>
                       <p>I like to run in my spare time</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
-              <Button className="more-button" variant="outline-info">See More</Button>
+              <Button className="more-button" variant="outline-info" href="/skills">See More</Button>
             </Col>
-            <Col md={{ span: 4}} className="carousel-container">
+            <Col md={{ span: 3 }} className="carousel-container">
               <h3>Projects</h3>
               <Carousel>
                 <Carousel.Item>
-                  Hello
+                  <GradientImg1 />
+                  <Carousel.Caption>
+                    <h5>Ecommerce Site</h5>
+                    <p>Ecommerce site built with react, firebase, stripe</p>
+                  </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  Hi
+                  <GradientImg2 />
+                  <Carousel.Caption>
+                    <h5>This Website</h5>
+                    <p>Built with react, react-bootstrap, and more</p>
+                  </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  osdfa
+                  <GradientImg3 />
+                  <Carousel.Caption>
+                    <h5>Ecommerce Site</h5>
+                    <p>Ecommerce site built with react, firebase, stripe</p>
+                  </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
-              <Button className="more-button" variant="outline-info">See More</Button>
+              <Button className="more-button" variant="outline-info" href="/projects">See More</Button>
             </Col>
           </Row>
         </Container>
