@@ -1,9 +1,9 @@
-import { Fragment, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import { Page, ContentContainer, NavigationContainer, NavigationLink, NavLinkContainer, TextContainer, Name, Blurb, FooterContainer, SocialsLinkContainer, SocialsLink } from './navigation.styles'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 

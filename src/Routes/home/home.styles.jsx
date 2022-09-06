@@ -7,7 +7,7 @@ export const ContentContainer = styled.div `
   & .subContainer {
     margin: 50px 0 50px 0;
     padding: 40px 40px;
-    background-color: grey;
+    background-color: silver;
     border-radius: 8px;
     border: solid;
     align-items: center;

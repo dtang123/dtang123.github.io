@@ -1,6 +1,13 @@
+import { Routes, Route } from 'react-router-dom'
+import MainPage from '../personal-projects-main-page/projects-main.components'
+import ProjectSidePage from '../personal-project-side-page/personal-project-side-page.component'
+
 const Project = () => {
   return (
-    <h1>This is the projects Page </h1>
+    <Routes>
+      <Route index element={<MainPage />} />
+      <Route path=":project" element={<ProjectSidePage />} />
+    </Routes>
   )
 }
 
