@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Outlet } from 'react-router-dom'
-import { Page, ContentContainer, NavigationContainer, NavigationLink, NavLinkContainer, TextContainer, Name, Blurb, FooterContainer, SocialsLinkContainer, SocialsLink } from './navigation.styles'
+import { Page, NavigationContainer, NavigationLink, NavLinkContainer, TextContainer, Name, Blurb, FooterContainer, SocialsLinkContainer, SocialsLink } from './navigation.styles'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
@@ -29,7 +29,6 @@ const Navigation = () => {
               { windowSize > 768 ?
               <NavLinkContainer>
                 <NavigationLink to='/about'> About Me </NavigationLink>
-                <NavigationLink to='/skills'> Skills </NavigationLink>
                 <NavigationLink to='/projects'> Personal Projects </NavigationLink>
                 <NavigationLink to='/contact'> Contact Me </NavigationLink>
               </NavLinkContainer>
@@ -37,7 +36,6 @@ const Navigation = () => {
                 <div style={{justifyContent: 'flex-end'}}>
                   <DropdownButton title="Menu">
                       <Dropdown.Item href="/about"> About Me </Dropdown.Item>
-                      <Dropdown.Item href="/skills"> Skills </Dropdown.Item>
                       <Dropdown.Item href="/projects"> Personal Projects </Dropdown.Item>
                       <Dropdown.Item href="/contact"> Contact Me </Dropdown.Item>
                   </DropdownButton>
@@ -50,7 +48,7 @@ const Navigation = () => {
               <SocialsLink href="https://www.instagram.com/" target="_blank">
                 <FontAwesomeIcon icon={brands("instagram")} />
               </SocialsLink>
-              <SocialsLink href="https://www.linkedin.com/" target="_blank">
+              <SocialsLink href="https://www.linkedin.com/in/david-tang-882063214/" target="_blank">
                 <FontAwesomeIcon icon={brands("linkedin")} />
               </SocialsLink>
               <SocialsLink href="https://github.com/dtang123" target="_blank">

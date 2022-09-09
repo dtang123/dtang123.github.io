@@ -53,7 +53,7 @@ const ProjectsMainPage = () => {
                             {projectsSorted[key].map(project => {
                                 return (
                                 <Col md={{ span: 4 }} className="column">
-                                <ProjectLink to={{pathname: project.name, data: project }}>
+                                <ProjectLink to={{pathname: project.name}} state={project}>
                                     <ProjectCard>
                                         <h1>{`${ project.name }`}</h1> 
                                         <h4>{`Language: ${ project.mainLanguage}`}</h4>

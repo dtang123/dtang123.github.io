@@ -7,7 +7,7 @@ export const ContentContainer = styled.div `
   & .subContainer {
     margin: 50px 0 50px 0;
     padding: 40px 40px;
-    background-color: silver;
+    background-color: #899499;
     border-radius: 8px;
     border: solid;
     align-items: center;
@@ -17,7 +17,7 @@ export const ContentContainer = styled.div `
       & .carousel-container {
         margin: 0 0 12px 0;
         padding: 12px 12px 12px 12px;
-        background-color: #E5E7E9;
+        background-color: silver;
         border-radius: 10px;
         & .more-button {
           margin-top: 15px;

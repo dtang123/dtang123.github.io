@@ -68,25 +68,24 @@ const Home = () => {
                   <PythonImg />
                   <Carousel.Caption>
                       <h5>Python</h5>
-                      <p>I like to run in my spare time</p>
+                      <p>My best language currently</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <ReactImg />
                   <Carousel.Caption>
                       <h5>React</h5>
-                      <p>I like to run in my spare time</p>
+                      <p>Built some react sites</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <BraingImg />
                   <Carousel.Caption>
                       <h5>TensorFlow</h5>
-                      <p>I like to run in my spare time</p>
+                      <p>Know the very basics of machine learning with TensorFlow</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
-              <Button className="more-button" variant="outline-info" href="/skills">See More</Button>
             </Col>
             <Col md={{ span: 3 }} className="carousel-container">
               <h3>Projects</h3>
@@ -102,7 +101,7 @@ const Home = () => {
                   <GradientImg2 />
                   <Carousel.Caption>
                     <h5>This Website</h5>
-                    <p>Built with react, react-bootstrap, and more</p>
+                    <p>Built with react, react-bootstrap, and redux toolkit</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
