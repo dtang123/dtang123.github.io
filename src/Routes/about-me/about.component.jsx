@@ -1,6 +1,9 @@
-import { EducationContainer, PageContainer, SkillsContainer } from './about.styled'
+import { EducationContainer, PageContainer, SkillsContainer, ButtonContainer } from './about.styled'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+import Resume from '../../assets/Career-fair-resume-2022.pdf'
+
 
 const About = () => {
   return (
@@ -68,6 +71,11 @@ const About = () => {
             APIs
           </Col>
         </Row>
+        <br/>
+        <p>Hoping to branch out into app development and machine learning</p>
+        <ButtonContainer>
+          <Button className="resume-button" variant="primary" href={Resume} target="_blank" rel="noreferrer">View Resume</Button>
+        </ButtonContainer>
       </SkillsContainer>
     </PageContainer>
   )

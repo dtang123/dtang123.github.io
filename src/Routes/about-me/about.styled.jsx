@@ -17,3 +17,9 @@ export const SkillsContainer = styled(EducationContainer) `
         }
     }
 `
+
+export const ButtonContainer = styled.div `
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`

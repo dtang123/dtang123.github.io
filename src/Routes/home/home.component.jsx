@@ -54,8 +54,8 @@ const Home = () => {
                 <Carousel.Item>
                   <SportImg/>
                   <Carousel.Caption>
-                      <h5>Watching Sports</h5>
-                      <p>I like to watch sports</p>
+                      <h5>Sports</h5>
+                      <p>I like to watch and play sports</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
