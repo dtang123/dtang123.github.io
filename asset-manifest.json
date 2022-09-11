@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24b68c36.css",
+    "main.js": "/static/js/main.2db41c53.js",
+    "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
+    "static/media/Career-fair-resume-2022.pdf": "/static/media/Career-fair-resume-2022.ca7fe4826ed0893b8e92.pdf",
+    "static/media/vanishing-stripes.svg": "/static/media/vanishing-stripes.447aaa874ff65dc0ec10ad4777369494.svg",
+    "static/media/react-brands.svg": "/static/media/react-brands.2bdba9fc9a23bc8dc57b0fb80cbe4592.svg",
+    "static/media/parabolic-ellipse.svg": "/static/media/parabolic-ellipse.ae666b8357955d07311366a920371f05.svg",
+    "static/media/bermuda-circle.svg": "/static/media/bermuda-circle.ab22573a47b374f340fe791f2b117bdf.svg",
+    "static/media/football-solid.svg": "/static/media/football-solid.835b1a906317b8c5cc5e304a8517de8c.svg",
+    "static/media/person-running-solid.svg": "/static/media/person-running-solid.04a4a2ebcca5d4a0c4ab1a7de5784b77.svg",
+    "static/media/brain-solid.svg": "/static/media/brain-solid.f80629760cdc44c20d980148b7315db8.svg",
+    "static/media/python-brands.svg": "/static/media/python-brands.d18832d09b02e0bd831c677a3b57f52e.svg",
+    "index.html": "/index.html",
+    "static/media/bed-solid.svg": "/static/media/bed-solid.9d4cca50823991bcf690a406e72b1cc8.svg",
+    "main.24b68c36.css.map": "/static/css/main.24b68c36.css.map",
+    "main.2db41c53.js.map": "/static/js/main.2db41c53.js.map",
+    "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24b68c36.css",
+    "static/js/main.2db41c53.js"
+  ]
+}
