@@ -68,9 +68,9 @@ export const Blurb = styled.h5 `
 export const FooterContainer = styled(NavigationContainer) `
   margin: 0;
   display: flex;
+  position: absolute:
   align-items: center;
-  position: sticky;
-  top: 0;
+  bottom: 0;
   width: 100%;
   height: 6rem; 
 `

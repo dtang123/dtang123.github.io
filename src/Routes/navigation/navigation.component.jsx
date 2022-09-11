@@ -43,8 +43,8 @@ const Navigation = () => {
             }
           </NavigationContainer>
         <Outlet />
-          <FooterContainer>
-            <SocialsLinkContainer>
+        <FooterContainer>
+          <SocialsLinkContainer>
               <SocialsLink href="https://www.instagram.com/" target="_blank">
                 <FontAwesomeIcon icon={brands("instagram")} />
               </SocialsLink>
